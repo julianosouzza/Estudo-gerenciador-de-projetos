@@ -1,0 +1,20 @@
+{
+    "name": "juliano/projeto-curso",
+    "description": "Projeto prático desenvolvido no curso \"gerenciador de projetos com php\" da school of net",
+    "authors": [
+        {
+            "name": "Juliano",
+            "email": "jsouzza1990@gmail.com"
+        }
+    ],
+    "require": {},
+    "autoload":{
+        "psr-4":{
+            "SON\\Framework\\":"src",
+            "App\\":"app"
+        }
+    },
+    "scripts":{
+        "server":"php -S localhost:8080 -t public"
+    }
+}
